@@ -1,0 +1,91 @@
+.cabecera {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* background-color: rgb(61, 243, 243); */
+    border-bottom: 0.3rem solid black;
+
+    div {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        margin-top: 1%;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 0.2rem solid rgb(184, 32, 32);
+            background-color: transparent;
+            border-radius: 35%;
+
+        }
+
+
+        h1 {
+            width: 75%;
+            font-size: 5rem;
+            text-align: center;
+            color: rgb(28, 55, 228);
+            text-shadow: #1171c4 0.1em 0.1em 0.2em;
+        }
+    }
+
+
+    nav {
+        width: 80%;
+
+        ul {
+            display: flex;
+            flex-flow: row;
+            list-style: none;
+            justify-content: space-evenly;
+
+
+            li {
+                width: max-content;
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: center;
+                background-color: blue;
+                /* border: 1px solid rgb(228, 228, 234); */
+                border-radius: 1rem;
+                padding: 0.2%;
+                margin: 0.5%;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    /* padding: 0.5%;
+                    margin: 0.5%; */
+                    border-radius: 35%;
+                    background-color: aliceblue;
+                }
+
+                a {
+                    width: max-content;
+                    text-decoration: none;
+                    font-size: 1.3rem;
+                    color: aliceblue;
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+nav ul li:hover {
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+
+    a {
+        color: darkblue;
+    }
+}
